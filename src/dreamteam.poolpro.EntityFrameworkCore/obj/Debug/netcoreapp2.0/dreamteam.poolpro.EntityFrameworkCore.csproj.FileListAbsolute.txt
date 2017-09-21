@@ -1,0 +1,15 @@
+D:\School\codercamps\dreamteam\3.0.0\aspnet-core\src\dreamteam.poolpro.EntityFrameworkCore\bin\Debug\netcoreapp2.0\dreamteam.poolpro.EntityFrameworkCore.dll.config
+D:\School\codercamps\dreamteam\3.0.0\aspnet-core\src\dreamteam.poolpro.EntityFrameworkCore\bin\Debug\netcoreapp2.0\dreamteam.poolpro.EntityFrameworkCore.deps.json
+D:\School\codercamps\dreamteam\3.0.0\aspnet-core\src\dreamteam.poolpro.EntityFrameworkCore\bin\Debug\netcoreapp2.0\dreamteam.poolpro.EntityFrameworkCore.runtimeconfig.json
+D:\School\codercamps\dreamteam\3.0.0\aspnet-core\src\dreamteam.poolpro.EntityFrameworkCore\bin\Debug\netcoreapp2.0\dreamteam.poolpro.EntityFrameworkCore.runtimeconfig.dev.json
+D:\School\codercamps\dreamteam\3.0.0\aspnet-core\src\dreamteam.poolpro.EntityFrameworkCore\bin\Debug\netcoreapp2.0\dreamteam.poolpro.EntityFrameworkCore.dll
+D:\School\codercamps\dreamteam\3.0.0\aspnet-core\src\dreamteam.poolpro.EntityFrameworkCore\bin\Debug\netcoreapp2.0\dreamteam.poolpro.EntityFrameworkCore.pdb
+D:\School\codercamps\dreamteam\3.0.0\aspnet-core\src\dreamteam.poolpro.EntityFrameworkCore\bin\Debug\netcoreapp2.0\dreamteam.poolpro.Core.dll
+D:\School\codercamps\dreamteam\3.0.0\aspnet-core\src\dreamteam.poolpro.EntityFrameworkCore\bin\Debug\netcoreapp2.0\dreamteam.poolpro.Core.pdb
+D:\School\codercamps\dreamteam\3.0.0\aspnet-core\src\dreamteam.poolpro.EntityFrameworkCore\obj\Debug\netcoreapp2.0\dreamteam.poolpro.EntityFrameworkCore.csprojResolveAssemblyReference.cache
+D:\School\codercamps\dreamteam\3.0.0\aspnet-core\src\dreamteam.poolpro.EntityFrameworkCore\obj\Debug\netcoreapp2.0\dreamteam.poolpro.EntityFrameworkCore.csproj.dreamteam.poolpro.EntityFrameworkCore.dll.config
+D:\School\codercamps\dreamteam\3.0.0\aspnet-core\src\dreamteam.poolpro.EntityFrameworkCore\obj\Debug\netcoreapp2.0\dreamteam.poolpro.EntityFrameworkCore.csproj.CoreCompileInputs.cache
+D:\School\codercamps\dreamteam\3.0.0\aspnet-core\src\dreamteam.poolpro.EntityFrameworkCore\obj\Debug\netcoreapp2.0\dreamteam.poolpro.EntityFrameworkCore.AssemblyInfoInputs.cache
+D:\School\codercamps\dreamteam\3.0.0\aspnet-core\src\dreamteam.poolpro.EntityFrameworkCore\obj\Debug\netcoreapp2.0\dreamteam.poolpro.EntityFrameworkCore.AssemblyInfo.cs
+D:\School\codercamps\dreamteam\3.0.0\aspnet-core\src\dreamteam.poolpro.EntityFrameworkCore\obj\Debug\netcoreapp2.0\dreamteam.poolpro.EntityFrameworkCore.dll
+D:\School\codercamps\dreamteam\3.0.0\aspnet-core\src\dreamteam.poolpro.EntityFrameworkCore\obj\Debug\netcoreapp2.0\dreamteam.poolpro.EntityFrameworkCore.pdb

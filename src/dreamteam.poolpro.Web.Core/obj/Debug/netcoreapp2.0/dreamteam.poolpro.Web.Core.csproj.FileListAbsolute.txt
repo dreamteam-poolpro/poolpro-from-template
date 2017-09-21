@@ -1,0 +1,16 @@
+D:\School\codercamps\dreamteam\3.0.0\aspnet-core\src\dreamteam.poolpro.Web.Core\bin\Debug\netcoreapp2.0\dreamteam.poolpro.Web.Core.deps.json
+D:\School\codercamps\dreamteam\3.0.0\aspnet-core\src\dreamteam.poolpro.Web.Core\bin\Debug\netcoreapp2.0\dreamteam.poolpro.Web.Core.dll
+D:\School\codercamps\dreamteam\3.0.0\aspnet-core\src\dreamteam.poolpro.Web.Core\bin\Debug\netcoreapp2.0\dreamteam.poolpro.Web.Core.pdb
+D:\School\codercamps\dreamteam\3.0.0\aspnet-core\src\dreamteam.poolpro.Web.Core\bin\Debug\netcoreapp2.0\dreamteam.poolpro.Application.dll
+D:\School\codercamps\dreamteam\3.0.0\aspnet-core\src\dreamteam.poolpro.Web.Core\bin\Debug\netcoreapp2.0\dreamteam.poolpro.Core.dll
+D:\School\codercamps\dreamteam\3.0.0\aspnet-core\src\dreamteam.poolpro.Web.Core\bin\Debug\netcoreapp2.0\dreamteam.poolpro.EntityFrameworkCore.dll
+D:\School\codercamps\dreamteam\3.0.0\aspnet-core\src\dreamteam.poolpro.Web.Core\bin\Debug\netcoreapp2.0\dreamteam.poolpro.Application.pdb
+D:\School\codercamps\dreamteam\3.0.0\aspnet-core\src\dreamteam.poolpro.Web.Core\bin\Debug\netcoreapp2.0\dreamteam.poolpro.EntityFrameworkCore.pdb
+D:\School\codercamps\dreamteam\3.0.0\aspnet-core\src\dreamteam.poolpro.Web.Core\bin\Debug\netcoreapp2.0\dreamteam.poolpro.EntityFrameworkCore.dll.config
+D:\School\codercamps\dreamteam\3.0.0\aspnet-core\src\dreamteam.poolpro.Web.Core\bin\Debug\netcoreapp2.0\dreamteam.poolpro.Core.pdb
+D:\School\codercamps\dreamteam\3.0.0\aspnet-core\src\dreamteam.poolpro.Web.Core\obj\Debug\netcoreapp2.0\dreamteam.poolpro.Web.Core.csprojResolveAssemblyReference.cache
+D:\School\codercamps\dreamteam\3.0.0\aspnet-core\src\dreamteam.poolpro.Web.Core\obj\Debug\netcoreapp2.0\dreamteam.poolpro.Web.Core.csproj.CoreCompileInputs.cache
+D:\School\codercamps\dreamteam\3.0.0\aspnet-core\src\dreamteam.poolpro.Web.Core\obj\Debug\netcoreapp2.0\dreamteam.poolpro.Web.Core.AssemblyInfoInputs.cache
+D:\School\codercamps\dreamteam\3.0.0\aspnet-core\src\dreamteam.poolpro.Web.Core\obj\Debug\netcoreapp2.0\dreamteam.poolpro.Web.Core.AssemblyInfo.cs
+D:\School\codercamps\dreamteam\3.0.0\aspnet-core\src\dreamteam.poolpro.Web.Core\obj\Debug\netcoreapp2.0\dreamteam.poolpro.Web.Core.dll
+D:\School\codercamps\dreamteam\3.0.0\aspnet-core\src\dreamteam.poolpro.Web.Core\obj\Debug\netcoreapp2.0\dreamteam.poolpro.Web.Core.pdb

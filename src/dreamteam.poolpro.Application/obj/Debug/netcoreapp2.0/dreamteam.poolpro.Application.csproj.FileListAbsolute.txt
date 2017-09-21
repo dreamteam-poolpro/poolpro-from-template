@@ -1,0 +1,11 @@
+D:\School\codercamps\dreamteam\3.0.0\aspnet-core\src\dreamteam.poolpro.Application\bin\Debug\netcoreapp2.0\dreamteam.poolpro.Application.deps.json
+D:\School\codercamps\dreamteam\3.0.0\aspnet-core\src\dreamteam.poolpro.Application\bin\Debug\netcoreapp2.0\dreamteam.poolpro.Application.dll
+D:\School\codercamps\dreamteam\3.0.0\aspnet-core\src\dreamteam.poolpro.Application\bin\Debug\netcoreapp2.0\dreamteam.poolpro.Application.pdb
+D:\School\codercamps\dreamteam\3.0.0\aspnet-core\src\dreamteam.poolpro.Application\bin\Debug\netcoreapp2.0\dreamteam.poolpro.Core.dll
+D:\School\codercamps\dreamteam\3.0.0\aspnet-core\src\dreamteam.poolpro.Application\bin\Debug\netcoreapp2.0\dreamteam.poolpro.Core.pdb
+D:\School\codercamps\dreamteam\3.0.0\aspnet-core\src\dreamteam.poolpro.Application\obj\Debug\netcoreapp2.0\dreamteam.poolpro.Application.csprojResolveAssemblyReference.cache
+D:\School\codercamps\dreamteam\3.0.0\aspnet-core\src\dreamteam.poolpro.Application\obj\Debug\netcoreapp2.0\dreamteam.poolpro.Application.csproj.CoreCompileInputs.cache
+D:\School\codercamps\dreamteam\3.0.0\aspnet-core\src\dreamteam.poolpro.Application\obj\Debug\netcoreapp2.0\dreamteam.poolpro.Application.AssemblyInfoInputs.cache
+D:\School\codercamps\dreamteam\3.0.0\aspnet-core\src\dreamteam.poolpro.Application\obj\Debug\netcoreapp2.0\dreamteam.poolpro.Application.AssemblyInfo.cs
+D:\School\codercamps\dreamteam\3.0.0\aspnet-core\src\dreamteam.poolpro.Application\obj\Debug\netcoreapp2.0\dreamteam.poolpro.Application.dll
+D:\School\codercamps\dreamteam\3.0.0\aspnet-core\src\dreamteam.poolpro.Application\obj\Debug\netcoreapp2.0\dreamteam.poolpro.Application.pdb
