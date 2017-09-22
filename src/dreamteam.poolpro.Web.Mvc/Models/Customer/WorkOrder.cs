@@ -11,10 +11,12 @@ namespace dreamteam.poolpro.Web.Models.Customer
         public int WorkOrderID { get; set; }
 
         // foreign keys
-        
-        //customer the qute is for
         public int CustomerID { get; set; }
+        public int BillingAddressID { get; set; }
+        public int ResidenceID { get; set; }
         public int QuoteID { get; set; }
+        
+        
         public int EmployeeID { get; set; }
         
         // List of line items

@@ -13,6 +13,8 @@ namespace dreamteam.poolpro.Web.Models.Customer
 
         //foreign key
         public int CustomerID { get; set; }
+        public int BillingAddressID { get; set; }
+        public int ResidenceID { get; set; }
 
         // cutomer data would come from the CustomerID foreign key?
         // so these shouldn't be here in the Quote Model class right? 

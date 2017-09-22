@@ -21,6 +21,15 @@ namespace dreamteam.poolpro.Web.Models.Customer
         // address where bills or other paperwork will be mailed 
         public BillingAddress BillingAddress { get; set; }
 
+        // addresses where work will be completed
+        public ICollection<Residence> Residences { get; set; }
+
+        //associated quotes, work orders, invoices and payments
+        public ICollection<Quote> Quotes { get; set; }
+        public ICollection<WorkOrder> WorkOrders { get; set; }
+        public ICollection<Invoice> Invoices { get; set; }
+        public ICollection<Payment> Payments { get; set; }
+
         
     }
 }

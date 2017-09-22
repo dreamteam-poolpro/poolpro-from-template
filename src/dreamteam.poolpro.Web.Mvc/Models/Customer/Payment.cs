@@ -5,11 +5,11 @@ namespace dreamteam.poolpro.Web.Models.Customer
     {
 
         //primary key
-        public int PaymentID;
+        public int PaymentID { get; set; }
 
         //foreign keys
-        public int CustomerID;
-        public int InvoiceID;
+        public int CustomerID { get; set; }
+        public int InvoiceID { get; set; }
 
         // type of payment
         public enum Type
@@ -24,7 +24,7 @@ namespace dreamteam.poolpro.Web.Models.Customer
         public DateTime Received { get; set; }
 
         //total amount of payment
-        public double AmountPaid;
+        public double AmountPaid { get; set; }
         
     }
 }

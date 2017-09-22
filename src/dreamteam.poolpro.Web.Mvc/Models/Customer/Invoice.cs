@@ -12,14 +12,17 @@ namespace dreamteam.poolpro.Web.Models.Customer
 
         // foreign keys
         public int CustomerID { get; set; }
+        //public int BillingAddressID { get; set; } - not sure if this is needed here
+        public int ResidenceID { get; set; }
         public int QuoteID { get; set; }
         public int WorkOrderID { get; set; }
+    
+        //to hold all of it's line items
+        public ICollection<LineItem> LineItems { get; set; }
 
-        // a list of line items completed from the work order
-        public List<LineItem> LineItems;
+        //to track all the payments made on this invoice
+        public ICollection<Payment> Payments { get; set; }
 
-        // list of payments that have been made
-        public List<Payment> Payments;
 
         // total cost
         public double TotalCost()

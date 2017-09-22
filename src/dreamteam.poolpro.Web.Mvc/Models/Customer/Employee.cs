@@ -8,7 +8,7 @@ namespace dreamteam.poolpro.Web.Models.Customer
     public class Employee
     {
         // primary key
-        public int EmployeeID;
+        public int EmployeeID { get; set; }
 
         // name
         public string FirstName { get; set; }

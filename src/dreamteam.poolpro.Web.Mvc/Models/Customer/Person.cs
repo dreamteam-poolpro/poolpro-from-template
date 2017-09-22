@@ -7,6 +7,12 @@ namespace dreamteam.poolpro.Web.Models.Customer
 {
     public class Person
     {
+        //primary key
+        public int PersonID { get; set; }
+
+        //foreign key
+        public int CustomerID { get; set; }
+
         // first name
         public string FirstName { get; set; }
 

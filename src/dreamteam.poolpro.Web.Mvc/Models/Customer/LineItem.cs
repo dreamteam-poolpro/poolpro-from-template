@@ -4,6 +4,11 @@ namespace dreamteam.poolpro.Web.Models.Customer
 {
     public class LineItem
     {
+        //primary key
+        public int LineItemID { get; set; }
+
+        //foreign key
+        public int InvoiceID { get; set; }
 
         // line itsm should looks like this:
         // Quantity Units   of  Description at UnitCost per   Unit  equals TotalCost()

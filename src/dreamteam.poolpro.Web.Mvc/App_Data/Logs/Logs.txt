@@ -2455,3 +2455,472 @@ INFO  2017-09-21 14:41:31,829 [11   ] NetCore.StaticFiles.StaticFileMiddleware -
 INFO  2017-09-21 14:41:31,833 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 36.5104ms 304 application/javascript
 INFO  2017-09-21 14:41:31,840 [6    ] NetCore.StaticFiles.StaticFileMiddleware - The file /lib/jquery-sparkline/dist/jquery.sparkline.js was not modified
 INFO  2017-09-21 14:41:31,845 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 430.9751ms 304 application/javascript
+DEBUG 2017-09-21 16:15:50,044 [3    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2017-09-21 16:15:50,069 [3    ] Abp.Modules.AbpModuleManager             - Found 14 ABP modules in total.
+DEBUG 2017-09-21 16:15:50,080 [3    ] Abp.Modules.AbpModuleManager             - Loaded module: dreamteam.poolpro.Web.Startup.poolproWebMvcModule, dreamteam.poolpro.Web.Mvc, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-09-21 16:15:50,084 [3    ] Abp.Modules.AbpModuleManager             - Loaded module: dreamteam.poolpro.poolproWebCoreModule, dreamteam.poolpro.Web.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-09-21 16:15:50,085 [3    ] Abp.Modules.AbpModuleManager             - Loaded module: dreamteam.poolpro.poolproApplicationModule, dreamteam.poolpro.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-09-21 16:15:50,085 [3    ] Abp.Modules.AbpModuleManager             - Loaded module: dreamteam.poolpro.poolproCoreModule, dreamteam.poolpro.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-09-21 16:15:50,085 [3    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.ZeroCore, Version=3.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-09-21 16:15:50,086 [3    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=3.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-09-21 16:15:50,086 [3    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=3.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-09-21 16:15:50,086 [3    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=3.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-09-21 16:15:50,087 [3    ] Abp.Modules.AbpModuleManager             - Loaded module: dreamteam.poolpro.EntityFrameworkCore.poolproEntityFrameworkModule, dreamteam.poolpro.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-09-21 16:15:50,087 [3    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFrameworkCore.AbpZeroCoreEntityFrameworkCoreModule, Abp.ZeroCore.EntityFrameworkCore, Version=3.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-09-21 16:15:50,087 [3    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule, Abp.EntityFrameworkCore, Version=3.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-09-21 16:15:50,087 [3    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=3.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-09-21 16:15:50,088 [3    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.AbpAspNetCoreModule, Abp.AspNetCore, Version=3.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-09-21 16:15:50,088 [3    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=3.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-09-21 16:15:50,091 [3    ] Abp.Modules.AbpModuleManager             - 14 modules loaded.
+DEBUG 2017-09-21 16:15:50,147 [3    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-09-21 16:15:50,147 [3    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-09-21 16:15:50,147 [3    ] o.Configuration.LanguageManagementConfig - Converted poolpro (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-09-21 16:15:50,147 [3    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-09-21 16:15:50,336 [3    ] ameworkCore.AbpEntityFrameworkCoreModule - Registering DbContext: dreamteam.poolpro.EntityFrameworkCore.poolproDbContext, dreamteam.poolpro.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-09-21 16:15:50,701 [3    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2017-09-21 16:15:50,711 [3    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2017-09-21 16:15:50,715 [3    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2017-09-21 16:15:50,718 [3    ] Abp.Localization.LocalizationManager     - Initialized localization source: poolpro
+DEBUG 2017-09-21 16:15:50,719 [3    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2017-09-21 16:15:50,754 [3    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2017-09-21 16:15:50,796 [3    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 12 classes define auto mapping attributes
+DEBUG 2017-09-21 16:15:50,796 [3    ] Abp.AutoMapper.AbpAutoMapperModule       - dreamteam.poolpro.Models.TokenAuth.ExternalLoginProviderInfoModel
+DEBUG 2017-09-21 16:15:50,799 [3    ] Abp.AutoMapper.AbpAutoMapperModule       - dreamteam.poolpro.Users.Dto.CreateUserDto
+DEBUG 2017-09-21 16:15:50,799 [3    ] Abp.AutoMapper.AbpAutoMapperModule       - dreamteam.poolpro.Users.Dto.UserDto
+DEBUG 2017-09-21 16:15:50,800 [3    ] Abp.AutoMapper.AbpAutoMapperModule       - dreamteam.poolpro.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2017-09-21 16:15:50,800 [3    ] Abp.AutoMapper.AbpAutoMapperModule       - dreamteam.poolpro.Sessions.Dto.UserLoginInfoDto
+DEBUG 2017-09-21 16:15:50,800 [3    ] Abp.AutoMapper.AbpAutoMapperModule       - dreamteam.poolpro.Roles.Dto.CreateRoleDto
+DEBUG 2017-09-21 16:15:50,800 [3    ] Abp.AutoMapper.AbpAutoMapperModule       - dreamteam.poolpro.Roles.Dto.PermissionDto
+DEBUG 2017-09-21 16:15:50,800 [3    ] Abp.AutoMapper.AbpAutoMapperModule       - dreamteam.poolpro.Roles.Dto.RoleDto
+DEBUG 2017-09-21 16:15:50,800 [3    ] Abp.AutoMapper.AbpAutoMapperModule       - dreamteam.poolpro.MultiTenancy.Dto.CreateTenantDto
+DEBUG 2017-09-21 16:15:50,800 [3    ] Abp.AutoMapper.AbpAutoMapperModule       - dreamteam.poolpro.MultiTenancy.Dto.EditTenantDto
+DEBUG 2017-09-21 16:15:50,800 [3    ] Abp.AutoMapper.AbpAutoMapperModule       - dreamteam.poolpro.MultiTenancy.Dto.TenantDto
+DEBUG 2017-09-21 16:15:50,800 [3    ] Abp.AutoMapper.AbpAutoMapperModule       - dreamteam.poolpro.Web.Views.Shared.Components.TenantChange.TenantChangeViewModel
+DEBUG 2017-09-21 16:17:33,313 [3    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2017-09-21 16:17:33,335 [3    ] Abp.Modules.AbpModuleManager             - Found 14 ABP modules in total.
+DEBUG 2017-09-21 16:17:33,347 [3    ] Abp.Modules.AbpModuleManager             - Loaded module: dreamteam.poolpro.Web.Startup.poolproWebMvcModule, dreamteam.poolpro.Web.Mvc, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-09-21 16:17:33,351 [3    ] Abp.Modules.AbpModuleManager             - Loaded module: dreamteam.poolpro.poolproWebCoreModule, dreamteam.poolpro.Web.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-09-21 16:17:33,351 [3    ] Abp.Modules.AbpModuleManager             - Loaded module: dreamteam.poolpro.poolproApplicationModule, dreamteam.poolpro.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-09-21 16:17:33,351 [3    ] Abp.Modules.AbpModuleManager             - Loaded module: dreamteam.poolpro.poolproCoreModule, dreamteam.poolpro.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-09-21 16:17:33,351 [3    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.ZeroCore, Version=3.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-09-21 16:17:33,352 [3    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=3.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-09-21 16:17:33,352 [3    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=3.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-09-21 16:17:33,352 [3    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=3.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-09-21 16:17:33,353 [3    ] Abp.Modules.AbpModuleManager             - Loaded module: dreamteam.poolpro.EntityFrameworkCore.poolproEntityFrameworkModule, dreamteam.poolpro.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-09-21 16:17:33,353 [3    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFrameworkCore.AbpZeroCoreEntityFrameworkCoreModule, Abp.ZeroCore.EntityFrameworkCore, Version=3.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-09-21 16:17:33,353 [3    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule, Abp.EntityFrameworkCore, Version=3.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-09-21 16:17:33,353 [3    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=3.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-09-21 16:17:33,354 [3    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.AbpAspNetCoreModule, Abp.AspNetCore, Version=3.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-09-21 16:17:33,354 [3    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=3.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-09-21 16:17:33,357 [3    ] Abp.Modules.AbpModuleManager             - 14 modules loaded.
+DEBUG 2017-09-21 16:17:33,408 [3    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-09-21 16:17:33,408 [3    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-09-21 16:17:33,408 [3    ] o.Configuration.LanguageManagementConfig - Converted poolpro (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-09-21 16:17:33,408 [3    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-09-21 16:17:33,604 [3    ] ameworkCore.AbpEntityFrameworkCoreModule - Registering DbContext: dreamteam.poolpro.EntityFrameworkCore.poolproDbContext, dreamteam.poolpro.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-09-21 16:17:33,976 [3    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2017-09-21 16:17:33,986 [3    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2017-09-21 16:17:33,990 [3    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2017-09-21 16:17:33,993 [3    ] Abp.Localization.LocalizationManager     - Initialized localization source: poolpro
+DEBUG 2017-09-21 16:17:33,993 [3    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2017-09-21 16:17:34,033 [3    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2017-09-21 16:17:34,082 [3    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 12 classes define auto mapping attributes
+DEBUG 2017-09-21 16:17:34,082 [3    ] Abp.AutoMapper.AbpAutoMapperModule       - dreamteam.poolpro.Models.TokenAuth.ExternalLoginProviderInfoModel
+DEBUG 2017-09-21 16:17:34,085 [3    ] Abp.AutoMapper.AbpAutoMapperModule       - dreamteam.poolpro.Users.Dto.CreateUserDto
+DEBUG 2017-09-21 16:17:34,085 [3    ] Abp.AutoMapper.AbpAutoMapperModule       - dreamteam.poolpro.Users.Dto.UserDto
+DEBUG 2017-09-21 16:17:34,085 [3    ] Abp.AutoMapper.AbpAutoMapperModule       - dreamteam.poolpro.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2017-09-21 16:17:34,085 [3    ] Abp.AutoMapper.AbpAutoMapperModule       - dreamteam.poolpro.Sessions.Dto.UserLoginInfoDto
+DEBUG 2017-09-21 16:17:34,085 [3    ] Abp.AutoMapper.AbpAutoMapperModule       - dreamteam.poolpro.Roles.Dto.CreateRoleDto
+DEBUG 2017-09-21 16:17:34,085 [3    ] Abp.AutoMapper.AbpAutoMapperModule       - dreamteam.poolpro.Roles.Dto.PermissionDto
+DEBUG 2017-09-21 16:17:34,085 [3    ] Abp.AutoMapper.AbpAutoMapperModule       - dreamteam.poolpro.Roles.Dto.RoleDto
+DEBUG 2017-09-21 16:17:34,086 [3    ] Abp.AutoMapper.AbpAutoMapperModule       - dreamteam.poolpro.MultiTenancy.Dto.CreateTenantDto
+DEBUG 2017-09-21 16:17:34,086 [3    ] Abp.AutoMapper.AbpAutoMapperModule       - dreamteam.poolpro.MultiTenancy.Dto.EditTenantDto
+DEBUG 2017-09-21 16:17:34,086 [3    ] Abp.AutoMapper.AbpAutoMapperModule       - dreamteam.poolpro.MultiTenancy.Dto.TenantDto
+DEBUG 2017-09-21 16:17:34,086 [3    ] Abp.AutoMapper.AbpAutoMapperModule       - dreamteam.poolpro.Web.Views.Shared.Components.TenantChange.TenantChangeViewModel
+DEBUG 2017-09-21 16:31:21,095 [3    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2017-09-21 16:31:21,121 [3    ] Abp.Modules.AbpModuleManager             - Found 14 ABP modules in total.
+DEBUG 2017-09-21 16:31:21,134 [3    ] Abp.Modules.AbpModuleManager             - Loaded module: dreamteam.poolpro.Web.Startup.poolproWebMvcModule, dreamteam.poolpro.Web.Mvc, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-09-21 16:31:21,136 [3    ] Abp.Modules.AbpModuleManager             - Loaded module: dreamteam.poolpro.poolproWebCoreModule, dreamteam.poolpro.Web.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-09-21 16:31:21,137 [3    ] Abp.Modules.AbpModuleManager             - Loaded module: dreamteam.poolpro.poolproApplicationModule, dreamteam.poolpro.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-09-21 16:31:21,137 [3    ] Abp.Modules.AbpModuleManager             - Loaded module: dreamteam.poolpro.poolproCoreModule, dreamteam.poolpro.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-09-21 16:31:21,137 [3    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.ZeroCore, Version=3.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-09-21 16:31:21,137 [3    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=3.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-09-21 16:31:21,138 [3    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=3.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-09-21 16:31:21,138 [3    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=3.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-09-21 16:31:21,138 [3    ] Abp.Modules.AbpModuleManager             - Loaded module: dreamteam.poolpro.EntityFrameworkCore.poolproEntityFrameworkModule, dreamteam.poolpro.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-09-21 16:31:21,139 [3    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFrameworkCore.AbpZeroCoreEntityFrameworkCoreModule, Abp.ZeroCore.EntityFrameworkCore, Version=3.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-09-21 16:31:21,139 [3    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule, Abp.EntityFrameworkCore, Version=3.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-09-21 16:31:21,139 [3    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=3.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-09-21 16:31:21,139 [3    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.AbpAspNetCoreModule, Abp.AspNetCore, Version=3.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-09-21 16:31:21,140 [3    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=3.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-09-21 16:31:21,143 [3    ] Abp.Modules.AbpModuleManager             - 14 modules loaded.
+DEBUG 2017-09-21 16:31:21,198 [3    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-09-21 16:31:21,198 [3    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-09-21 16:31:21,198 [3    ] o.Configuration.LanguageManagementConfig - Converted poolpro (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-09-21 16:31:21,198 [3    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-09-21 16:31:21,387 [3    ] ameworkCore.AbpEntityFrameworkCoreModule - Registering DbContext: dreamteam.poolpro.EntityFrameworkCore.poolproDbContext, dreamteam.poolpro.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-09-21 16:31:21,756 [3    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2017-09-21 16:31:21,766 [3    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2017-09-21 16:31:21,770 [3    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2017-09-21 16:31:21,772 [3    ] Abp.Localization.LocalizationManager     - Initialized localization source: poolpro
+DEBUG 2017-09-21 16:31:21,773 [3    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2017-09-21 16:31:21,808 [3    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2017-09-21 16:31:21,852 [3    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 12 classes define auto mapping attributes
+DEBUG 2017-09-21 16:31:21,852 [3    ] Abp.AutoMapper.AbpAutoMapperModule       - dreamteam.poolpro.Models.TokenAuth.ExternalLoginProviderInfoModel
+DEBUG 2017-09-21 16:31:21,855 [3    ] Abp.AutoMapper.AbpAutoMapperModule       - dreamteam.poolpro.Users.Dto.CreateUserDto
+DEBUG 2017-09-21 16:31:21,856 [3    ] Abp.AutoMapper.AbpAutoMapperModule       - dreamteam.poolpro.Users.Dto.UserDto
+DEBUG 2017-09-21 16:31:21,856 [3    ] Abp.AutoMapper.AbpAutoMapperModule       - dreamteam.poolpro.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2017-09-21 16:31:21,856 [3    ] Abp.AutoMapper.AbpAutoMapperModule       - dreamteam.poolpro.Sessions.Dto.UserLoginInfoDto
+DEBUG 2017-09-21 16:31:21,856 [3    ] Abp.AutoMapper.AbpAutoMapperModule       - dreamteam.poolpro.Roles.Dto.CreateRoleDto
+DEBUG 2017-09-21 16:31:21,856 [3    ] Abp.AutoMapper.AbpAutoMapperModule       - dreamteam.poolpro.Roles.Dto.PermissionDto
+DEBUG 2017-09-21 16:31:21,856 [3    ] Abp.AutoMapper.AbpAutoMapperModule       - dreamteam.poolpro.Roles.Dto.RoleDto
+DEBUG 2017-09-21 16:31:21,856 [3    ] Abp.AutoMapper.AbpAutoMapperModule       - dreamteam.poolpro.MultiTenancy.Dto.CreateTenantDto
+DEBUG 2017-09-21 16:31:21,856 [3    ] Abp.AutoMapper.AbpAutoMapperModule       - dreamteam.poolpro.MultiTenancy.Dto.EditTenantDto
+DEBUG 2017-09-21 16:31:21,856 [3    ] Abp.AutoMapper.AbpAutoMapperModule       - dreamteam.poolpro.MultiTenancy.Dto.TenantDto
+DEBUG 2017-09-21 16:31:21,856 [3    ] Abp.AutoMapper.AbpAutoMapperModule       - dreamteam.poolpro.Web.Views.Shared.Components.TenantChange.TenantChangeViewModel
+DEBUG 2017-09-21 16:33:06,582 [3    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2017-09-21 16:33:06,616 [3    ] Abp.Modules.AbpModuleManager             - Found 14 ABP modules in total.
+DEBUG 2017-09-21 16:33:06,635 [3    ] Abp.Modules.AbpModuleManager             - Loaded module: dreamteam.poolpro.Web.Startup.poolproWebMvcModule, dreamteam.poolpro.Web.Mvc, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-09-21 16:33:06,639 [3    ] Abp.Modules.AbpModuleManager             - Loaded module: dreamteam.poolpro.poolproWebCoreModule, dreamteam.poolpro.Web.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-09-21 16:33:06,639 [3    ] Abp.Modules.AbpModuleManager             - Loaded module: dreamteam.poolpro.poolproApplicationModule, dreamteam.poolpro.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-09-21 16:33:06,640 [3    ] Abp.Modules.AbpModuleManager             - Loaded module: dreamteam.poolpro.poolproCoreModule, dreamteam.poolpro.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-09-21 16:33:06,640 [3    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.ZeroCore, Version=3.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-09-21 16:33:06,641 [3    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=3.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-09-21 16:33:06,641 [3    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=3.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-09-21 16:33:06,642 [3    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=3.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-09-21 16:33:06,642 [3    ] Abp.Modules.AbpModuleManager             - Loaded module: dreamteam.poolpro.EntityFrameworkCore.poolproEntityFrameworkModule, dreamteam.poolpro.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-09-21 16:33:06,643 [3    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFrameworkCore.AbpZeroCoreEntityFrameworkCoreModule, Abp.ZeroCore.EntityFrameworkCore, Version=3.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-09-21 16:33:06,643 [3    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule, Abp.EntityFrameworkCore, Version=3.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-09-21 16:33:06,643 [3    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=3.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-09-21 16:33:06,644 [3    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.AbpAspNetCoreModule, Abp.AspNetCore, Version=3.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-09-21 16:33:06,644 [3    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=3.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-09-21 16:33:06,648 [3    ] Abp.Modules.AbpModuleManager             - 14 modules loaded.
+DEBUG 2017-09-21 16:33:06,731 [3    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-09-21 16:33:06,731 [3    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-09-21 16:33:06,731 [3    ] o.Configuration.LanguageManagementConfig - Converted poolpro (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-09-21 16:33:06,731 [3    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-09-21 16:33:06,947 [3    ] ameworkCore.AbpEntityFrameworkCoreModule - Registering DbContext: dreamteam.poolpro.EntityFrameworkCore.poolproDbContext, dreamteam.poolpro.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-09-21 16:33:07,384 [3    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2017-09-21 16:33:07,394 [3    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2017-09-21 16:33:07,398 [3    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2017-09-21 16:33:07,399 [3    ] Abp.Localization.LocalizationManager     - Initialized localization source: poolpro
+DEBUG 2017-09-21 16:33:07,400 [3    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2017-09-21 16:33:07,435 [3    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2017-09-21 16:33:07,482 [3    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 12 classes define auto mapping attributes
+DEBUG 2017-09-21 16:33:07,482 [3    ] Abp.AutoMapper.AbpAutoMapperModule       - dreamteam.poolpro.Models.TokenAuth.ExternalLoginProviderInfoModel
+DEBUG 2017-09-21 16:33:07,485 [3    ] Abp.AutoMapper.AbpAutoMapperModule       - dreamteam.poolpro.Users.Dto.CreateUserDto
+DEBUG 2017-09-21 16:33:07,485 [3    ] Abp.AutoMapper.AbpAutoMapperModule       - dreamteam.poolpro.Users.Dto.UserDto
+DEBUG 2017-09-21 16:33:07,486 [3    ] Abp.AutoMapper.AbpAutoMapperModule       - dreamteam.poolpro.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2017-09-21 16:33:07,486 [3    ] Abp.AutoMapper.AbpAutoMapperModule       - dreamteam.poolpro.Sessions.Dto.UserLoginInfoDto
+DEBUG 2017-09-21 16:33:07,486 [3    ] Abp.AutoMapper.AbpAutoMapperModule       - dreamteam.poolpro.Roles.Dto.CreateRoleDto
+DEBUG 2017-09-21 16:33:07,486 [3    ] Abp.AutoMapper.AbpAutoMapperModule       - dreamteam.poolpro.Roles.Dto.PermissionDto
+DEBUG 2017-09-21 16:33:07,486 [3    ] Abp.AutoMapper.AbpAutoMapperModule       - dreamteam.poolpro.Roles.Dto.RoleDto
+DEBUG 2017-09-21 16:33:07,486 [3    ] Abp.AutoMapper.AbpAutoMapperModule       - dreamteam.poolpro.MultiTenancy.Dto.CreateTenantDto
+DEBUG 2017-09-21 16:33:07,486 [3    ] Abp.AutoMapper.AbpAutoMapperModule       - dreamteam.poolpro.MultiTenancy.Dto.EditTenantDto
+DEBUG 2017-09-21 16:33:07,486 [3    ] Abp.AutoMapper.AbpAutoMapperModule       - dreamteam.poolpro.MultiTenancy.Dto.TenantDto
+DEBUG 2017-09-21 16:33:07,486 [3    ] Abp.AutoMapper.AbpAutoMapperModule       - dreamteam.poolpro.Web.Views.Shared.Components.TenantChange.TenantChangeViewModel
+DEBUG 2017-09-21 16:34:22,331 [3    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2017-09-21 16:34:22,354 [3    ] Abp.Modules.AbpModuleManager             - Found 14 ABP modules in total.
+DEBUG 2017-09-21 16:34:22,368 [3    ] Abp.Modules.AbpModuleManager             - Loaded module: dreamteam.poolpro.Web.Startup.poolproWebMvcModule, dreamteam.poolpro.Web.Mvc, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-09-21 16:34:22,371 [3    ] Abp.Modules.AbpModuleManager             - Loaded module: dreamteam.poolpro.poolproWebCoreModule, dreamteam.poolpro.Web.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-09-21 16:34:22,372 [3    ] Abp.Modules.AbpModuleManager             - Loaded module: dreamteam.poolpro.poolproApplicationModule, dreamteam.poolpro.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-09-21 16:34:22,372 [3    ] Abp.Modules.AbpModuleManager             - Loaded module: dreamteam.poolpro.poolproCoreModule, dreamteam.poolpro.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-09-21 16:34:22,372 [3    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.ZeroCore, Version=3.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-09-21 16:34:22,372 [3    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=3.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-09-21 16:34:22,373 [3    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=3.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-09-21 16:34:22,373 [3    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=3.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-09-21 16:34:22,373 [3    ] Abp.Modules.AbpModuleManager             - Loaded module: dreamteam.poolpro.EntityFrameworkCore.poolproEntityFrameworkModule, dreamteam.poolpro.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-09-21 16:34:22,374 [3    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFrameworkCore.AbpZeroCoreEntityFrameworkCoreModule, Abp.ZeroCore.EntityFrameworkCore, Version=3.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-09-21 16:34:22,374 [3    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule, Abp.EntityFrameworkCore, Version=3.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-09-21 16:34:22,374 [3    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=3.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-09-21 16:34:22,375 [3    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.AbpAspNetCoreModule, Abp.AspNetCore, Version=3.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-09-21 16:34:22,375 [3    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=3.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-09-21 16:34:22,378 [3    ] Abp.Modules.AbpModuleManager             - 14 modules loaded.
+DEBUG 2017-09-21 16:34:22,433 [3    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-09-21 16:34:22,433 [3    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-09-21 16:34:22,433 [3    ] o.Configuration.LanguageManagementConfig - Converted poolpro (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-09-21 16:34:22,433 [3    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-09-21 16:34:22,630 [3    ] ameworkCore.AbpEntityFrameworkCoreModule - Registering DbContext: dreamteam.poolpro.EntityFrameworkCore.poolproDbContext, dreamteam.poolpro.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-09-21 16:34:22,999 [3    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2017-09-21 16:34:23,009 [3    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2017-09-21 16:34:23,013 [3    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2017-09-21 16:34:23,016 [3    ] Abp.Localization.LocalizationManager     - Initialized localization source: poolpro
+DEBUG 2017-09-21 16:34:23,017 [3    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2017-09-21 16:34:23,051 [3    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2017-09-21 16:34:23,094 [3    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 12 classes define auto mapping attributes
+DEBUG 2017-09-21 16:34:23,094 [3    ] Abp.AutoMapper.AbpAutoMapperModule       - dreamteam.poolpro.Models.TokenAuth.ExternalLoginProviderInfoModel
+DEBUG 2017-09-21 16:34:23,098 [3    ] Abp.AutoMapper.AbpAutoMapperModule       - dreamteam.poolpro.Users.Dto.CreateUserDto
+DEBUG 2017-09-21 16:34:23,098 [3    ] Abp.AutoMapper.AbpAutoMapperModule       - dreamteam.poolpro.Users.Dto.UserDto
+DEBUG 2017-09-21 16:34:23,098 [3    ] Abp.AutoMapper.AbpAutoMapperModule       - dreamteam.poolpro.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2017-09-21 16:34:23,098 [3    ] Abp.AutoMapper.AbpAutoMapperModule       - dreamteam.poolpro.Sessions.Dto.UserLoginInfoDto
+DEBUG 2017-09-21 16:34:23,098 [3    ] Abp.AutoMapper.AbpAutoMapperModule       - dreamteam.poolpro.Roles.Dto.CreateRoleDto
+DEBUG 2017-09-21 16:34:23,098 [3    ] Abp.AutoMapper.AbpAutoMapperModule       - dreamteam.poolpro.Roles.Dto.PermissionDto
+DEBUG 2017-09-21 16:34:23,098 [3    ] Abp.AutoMapper.AbpAutoMapperModule       - dreamteam.poolpro.Roles.Dto.RoleDto
+DEBUG 2017-09-21 16:34:23,098 [3    ] Abp.AutoMapper.AbpAutoMapperModule       - dreamteam.poolpro.MultiTenancy.Dto.CreateTenantDto
+DEBUG 2017-09-21 16:34:23,098 [3    ] Abp.AutoMapper.AbpAutoMapperModule       - dreamteam.poolpro.MultiTenancy.Dto.EditTenantDto
+DEBUG 2017-09-21 16:34:23,098 [3    ] Abp.AutoMapper.AbpAutoMapperModule       - dreamteam.poolpro.MultiTenancy.Dto.TenantDto
+DEBUG 2017-09-21 16:34:23,098 [3    ] Abp.AutoMapper.AbpAutoMapperModule       - dreamteam.poolpro.Web.Views.Shared.Components.TenantChange.TenantChangeViewModel
+DEBUG 2017-09-21 16:48:17,320 [3    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2017-09-21 16:48:17,349 [3    ] Abp.Modules.AbpModuleManager             - Found 14 ABP modules in total.
+DEBUG 2017-09-21 16:48:17,363 [3    ] Abp.Modules.AbpModuleManager             - Loaded module: dreamteam.poolpro.Web.Startup.poolproWebMvcModule, dreamteam.poolpro.Web.Mvc, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-09-21 16:48:17,367 [3    ] Abp.Modules.AbpModuleManager             - Loaded module: dreamteam.poolpro.poolproWebCoreModule, dreamteam.poolpro.Web.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-09-21 16:48:17,367 [3    ] Abp.Modules.AbpModuleManager             - Loaded module: dreamteam.poolpro.poolproApplicationModule, dreamteam.poolpro.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-09-21 16:48:17,367 [3    ] Abp.Modules.AbpModuleManager             - Loaded module: dreamteam.poolpro.poolproCoreModule, dreamteam.poolpro.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-09-21 16:48:17,368 [3    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.ZeroCore, Version=3.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-09-21 16:48:17,368 [3    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=3.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-09-21 16:48:17,368 [3    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=3.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-09-21 16:48:17,369 [3    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=3.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-09-21 16:48:17,369 [3    ] Abp.Modules.AbpModuleManager             - Loaded module: dreamteam.poolpro.EntityFrameworkCore.poolproEntityFrameworkModule, dreamteam.poolpro.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-09-21 16:48:17,370 [3    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFrameworkCore.AbpZeroCoreEntityFrameworkCoreModule, Abp.ZeroCore.EntityFrameworkCore, Version=3.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-09-21 16:48:17,370 [3    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule, Abp.EntityFrameworkCore, Version=3.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-09-21 16:48:17,370 [3    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=3.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-09-21 16:48:17,370 [3    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.AbpAspNetCoreModule, Abp.AspNetCore, Version=3.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-09-21 16:48:17,371 [3    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=3.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-09-21 16:48:17,376 [3    ] Abp.Modules.AbpModuleManager             - 14 modules loaded.
+DEBUG 2017-09-21 16:48:17,436 [3    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-09-21 16:48:17,436 [3    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-09-21 16:48:17,436 [3    ] o.Configuration.LanguageManagementConfig - Converted poolpro (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-09-21 16:48:17,436 [3    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-09-21 16:48:17,658 [3    ] ameworkCore.AbpEntityFrameworkCoreModule - Registering DbContext: dreamteam.poolpro.EntityFrameworkCore.poolproDbContext, dreamteam.poolpro.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-09-21 16:48:18,066 [3    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2017-09-21 16:48:18,078 [3    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2017-09-21 16:48:18,082 [3    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2017-09-21 16:48:18,084 [3    ] Abp.Localization.LocalizationManager     - Initialized localization source: poolpro
+DEBUG 2017-09-21 16:48:18,085 [3    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2017-09-21 16:48:18,125 [3    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2017-09-21 16:48:18,186 [3    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 12 classes define auto mapping attributes
+DEBUG 2017-09-21 16:48:18,186 [3    ] Abp.AutoMapper.AbpAutoMapperModule       - dreamteam.poolpro.Models.TokenAuth.ExternalLoginProviderInfoModel
+DEBUG 2017-09-21 16:48:18,190 [3    ] Abp.AutoMapper.AbpAutoMapperModule       - dreamteam.poolpro.Users.Dto.CreateUserDto
+DEBUG 2017-09-21 16:48:18,191 [3    ] Abp.AutoMapper.AbpAutoMapperModule       - dreamteam.poolpro.Users.Dto.UserDto
+DEBUG 2017-09-21 16:48:18,191 [3    ] Abp.AutoMapper.AbpAutoMapperModule       - dreamteam.poolpro.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2017-09-21 16:48:18,191 [3    ] Abp.AutoMapper.AbpAutoMapperModule       - dreamteam.poolpro.Sessions.Dto.UserLoginInfoDto
+DEBUG 2017-09-21 16:48:18,191 [3    ] Abp.AutoMapper.AbpAutoMapperModule       - dreamteam.poolpro.Roles.Dto.CreateRoleDto
+DEBUG 2017-09-21 16:48:18,191 [3    ] Abp.AutoMapper.AbpAutoMapperModule       - dreamteam.poolpro.Roles.Dto.PermissionDto
+DEBUG 2017-09-21 16:48:18,191 [3    ] Abp.AutoMapper.AbpAutoMapperModule       - dreamteam.poolpro.Roles.Dto.RoleDto
+DEBUG 2017-09-21 16:48:18,192 [3    ] Abp.AutoMapper.AbpAutoMapperModule       - dreamteam.poolpro.MultiTenancy.Dto.CreateTenantDto
+DEBUG 2017-09-21 16:48:18,192 [3    ] Abp.AutoMapper.AbpAutoMapperModule       - dreamteam.poolpro.MultiTenancy.Dto.EditTenantDto
+DEBUG 2017-09-21 16:48:18,192 [3    ] Abp.AutoMapper.AbpAutoMapperModule       - dreamteam.poolpro.MultiTenancy.Dto.TenantDto
+DEBUG 2017-09-21 16:48:18,192 [3    ] Abp.AutoMapper.AbpAutoMapperModule       - dreamteam.poolpro.Web.Views.Shared.Components.TenantChange.TenantChangeViewModel
+DEBUG 2017-09-21 16:49:19,456 [3    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2017-09-21 16:49:19,483 [3    ] Abp.Modules.AbpModuleManager             - Found 14 ABP modules in total.
+DEBUG 2017-09-21 16:49:19,499 [3    ] Abp.Modules.AbpModuleManager             - Loaded module: dreamteam.poolpro.Web.Startup.poolproWebMvcModule, dreamteam.poolpro.Web.Mvc, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-09-21 16:49:19,503 [3    ] Abp.Modules.AbpModuleManager             - Loaded module: dreamteam.poolpro.poolproWebCoreModule, dreamteam.poolpro.Web.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-09-21 16:49:19,504 [3    ] Abp.Modules.AbpModuleManager             - Loaded module: dreamteam.poolpro.poolproApplicationModule, dreamteam.poolpro.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-09-21 16:49:19,504 [3    ] Abp.Modules.AbpModuleManager             - Loaded module: dreamteam.poolpro.poolproCoreModule, dreamteam.poolpro.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-09-21 16:49:19,504 [3    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.ZeroCore, Version=3.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-09-21 16:49:19,505 [3    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=3.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-09-21 16:49:19,505 [3    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=3.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-09-21 16:49:19,505 [3    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=3.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-09-21 16:49:19,506 [3    ] Abp.Modules.AbpModuleManager             - Loaded module: dreamteam.poolpro.EntityFrameworkCore.poolproEntityFrameworkModule, dreamteam.poolpro.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-09-21 16:49:19,506 [3    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFrameworkCore.AbpZeroCoreEntityFrameworkCoreModule, Abp.ZeroCore.EntityFrameworkCore, Version=3.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-09-21 16:49:19,507 [3    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule, Abp.EntityFrameworkCore, Version=3.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-09-21 16:49:19,507 [3    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=3.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-09-21 16:49:19,507 [3    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.AbpAspNetCoreModule, Abp.AspNetCore, Version=3.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-09-21 16:49:19,507 [3    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=3.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-09-21 16:49:19,511 [3    ] Abp.Modules.AbpModuleManager             - 14 modules loaded.
+DEBUG 2017-09-21 16:49:19,577 [3    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-09-21 16:49:19,577 [3    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-09-21 16:49:19,577 [3    ] o.Configuration.LanguageManagementConfig - Converted poolpro (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-09-21 16:49:19,577 [3    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-09-21 16:49:19,825 [3    ] ameworkCore.AbpEntityFrameworkCoreModule - Registering DbContext: dreamteam.poolpro.EntityFrameworkCore.poolproDbContext, dreamteam.poolpro.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-09-21 16:49:20,222 [3    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2017-09-21 16:49:20,233 [3    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2017-09-21 16:49:20,238 [3    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2017-09-21 16:49:20,240 [3    ] Abp.Localization.LocalizationManager     - Initialized localization source: poolpro
+DEBUG 2017-09-21 16:49:20,241 [3    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2017-09-21 16:49:20,287 [3    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2017-09-21 16:49:20,340 [3    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 12 classes define auto mapping attributes
+DEBUG 2017-09-21 16:49:20,340 [3    ] Abp.AutoMapper.AbpAutoMapperModule       - dreamteam.poolpro.Models.TokenAuth.ExternalLoginProviderInfoModel
+DEBUG 2017-09-21 16:49:20,344 [3    ] Abp.AutoMapper.AbpAutoMapperModule       - dreamteam.poolpro.Users.Dto.CreateUserDto
+DEBUG 2017-09-21 16:49:20,345 [3    ] Abp.AutoMapper.AbpAutoMapperModule       - dreamteam.poolpro.Users.Dto.UserDto
+DEBUG 2017-09-21 16:49:20,345 [3    ] Abp.AutoMapper.AbpAutoMapperModule       - dreamteam.poolpro.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2017-09-21 16:49:20,345 [3    ] Abp.AutoMapper.AbpAutoMapperModule       - dreamteam.poolpro.Sessions.Dto.UserLoginInfoDto
+DEBUG 2017-09-21 16:49:20,345 [3    ] Abp.AutoMapper.AbpAutoMapperModule       - dreamteam.poolpro.Roles.Dto.CreateRoleDto
+DEBUG 2017-09-21 16:49:20,345 [3    ] Abp.AutoMapper.AbpAutoMapperModule       - dreamteam.poolpro.Roles.Dto.PermissionDto
+DEBUG 2017-09-21 16:49:20,345 [3    ] Abp.AutoMapper.AbpAutoMapperModule       - dreamteam.poolpro.Roles.Dto.RoleDto
+DEBUG 2017-09-21 16:49:20,345 [3    ] Abp.AutoMapper.AbpAutoMapperModule       - dreamteam.poolpro.MultiTenancy.Dto.CreateTenantDto
+DEBUG 2017-09-21 16:49:20,345 [3    ] Abp.AutoMapper.AbpAutoMapperModule       - dreamteam.poolpro.MultiTenancy.Dto.EditTenantDto
+DEBUG 2017-09-21 16:49:20,345 [3    ] Abp.AutoMapper.AbpAutoMapperModule       - dreamteam.poolpro.MultiTenancy.Dto.TenantDto
+DEBUG 2017-09-21 16:49:20,345 [3    ] Abp.AutoMapper.AbpAutoMapperModule       - dreamteam.poolpro.Web.Views.Shared.Components.TenantChange.TenantChangeViewModel
+INFO  2017-09-21 16:49:21,981 [3    ] osoft.EntityFrameworkCore.Infrastructure - Entity Framework Core 2.0.0-rtm-26452 initialized 'CustomerContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+DEBUG 2017-09-21 16:51:37,292 [2    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2017-09-21 16:51:37,381 [2    ] Abp.Modules.AbpModuleManager             - Found 14 ABP modules in total.
+DEBUG 2017-09-21 16:51:37,399 [2    ] Abp.Modules.AbpModuleManager             - Loaded module: dreamteam.poolpro.Web.Startup.poolproWebMvcModule, dreamteam.poolpro.Web.Mvc, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-09-21 16:51:37,402 [2    ] Abp.Modules.AbpModuleManager             - Loaded module: dreamteam.poolpro.poolproWebCoreModule, dreamteam.poolpro.Web.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-09-21 16:51:37,403 [2    ] Abp.Modules.AbpModuleManager             - Loaded module: dreamteam.poolpro.poolproApplicationModule, dreamteam.poolpro.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-09-21 16:51:37,403 [2    ] Abp.Modules.AbpModuleManager             - Loaded module: dreamteam.poolpro.poolproCoreModule, dreamteam.poolpro.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-09-21 16:51:37,403 [2    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.ZeroCore, Version=3.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-09-21 16:51:37,404 [2    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=3.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-09-21 16:51:37,404 [2    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=3.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-09-21 16:51:37,405 [2    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=3.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-09-21 16:51:37,405 [2    ] Abp.Modules.AbpModuleManager             - Loaded module: dreamteam.poolpro.EntityFrameworkCore.poolproEntityFrameworkModule, dreamteam.poolpro.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-09-21 16:51:37,405 [2    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFrameworkCore.AbpZeroCoreEntityFrameworkCoreModule, Abp.ZeroCore.EntityFrameworkCore, Version=3.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-09-21 16:51:37,406 [2    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule, Abp.EntityFrameworkCore, Version=3.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-09-21 16:51:37,406 [2    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=3.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-09-21 16:51:37,406 [2    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.AbpAspNetCoreModule, Abp.AspNetCore, Version=3.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-09-21 16:51:37,406 [2    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=3.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-09-21 16:51:37,411 [2    ] Abp.Modules.AbpModuleManager             - 14 modules loaded.
+DEBUG 2017-09-21 16:51:37,478 [2    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-09-21 16:51:37,479 [2    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-09-21 16:51:37,479 [2    ] o.Configuration.LanguageManagementConfig - Converted poolpro (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-09-21 16:51:37,479 [2    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-09-21 16:51:37,802 [2    ] ameworkCore.AbpEntityFrameworkCoreModule - Registering DbContext: dreamteam.poolpro.EntityFrameworkCore.poolproDbContext, dreamteam.poolpro.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-09-21 16:51:38,770 [2    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2017-09-21 16:51:38,783 [2    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2017-09-21 16:51:38,787 [2    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2017-09-21 16:51:38,790 [2    ] Abp.Localization.LocalizationManager     - Initialized localization source: poolpro
+DEBUG 2017-09-21 16:51:38,791 [2    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2017-09-21 16:51:38,974 [2    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2017-09-21 16:51:39,025 [2    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 12 classes define auto mapping attributes
+DEBUG 2017-09-21 16:51:39,025 [2    ] Abp.AutoMapper.AbpAutoMapperModule       - dreamteam.poolpro.Models.TokenAuth.ExternalLoginProviderInfoModel
+DEBUG 2017-09-21 16:51:39,028 [2    ] Abp.AutoMapper.AbpAutoMapperModule       - dreamteam.poolpro.Users.Dto.CreateUserDto
+DEBUG 2017-09-21 16:51:39,029 [2    ] Abp.AutoMapper.AbpAutoMapperModule       - dreamteam.poolpro.Users.Dto.UserDto
+DEBUG 2017-09-21 16:51:39,029 [2    ] Abp.AutoMapper.AbpAutoMapperModule       - dreamteam.poolpro.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2017-09-21 16:51:39,029 [2    ] Abp.AutoMapper.AbpAutoMapperModule       - dreamteam.poolpro.Sessions.Dto.UserLoginInfoDto
+DEBUG 2017-09-21 16:51:39,029 [2    ] Abp.AutoMapper.AbpAutoMapperModule       - dreamteam.poolpro.Roles.Dto.CreateRoleDto
+DEBUG 2017-09-21 16:51:39,029 [2    ] Abp.AutoMapper.AbpAutoMapperModule       - dreamteam.poolpro.Roles.Dto.PermissionDto
+DEBUG 2017-09-21 16:51:39,029 [2    ] Abp.AutoMapper.AbpAutoMapperModule       - dreamteam.poolpro.Roles.Dto.RoleDto
+DEBUG 2017-09-21 16:51:39,029 [2    ] Abp.AutoMapper.AbpAutoMapperModule       - dreamteam.poolpro.MultiTenancy.Dto.CreateTenantDto
+DEBUG 2017-09-21 16:51:39,029 [2    ] Abp.AutoMapper.AbpAutoMapperModule       - dreamteam.poolpro.MultiTenancy.Dto.EditTenantDto
+DEBUG 2017-09-21 16:51:39,029 [2    ] Abp.AutoMapper.AbpAutoMapperModule       - dreamteam.poolpro.MultiTenancy.Dto.TenantDto
+DEBUG 2017-09-21 16:51:39,029 [2    ] Abp.AutoMapper.AbpAutoMapperModule       - dreamteam.poolpro.Web.Views.Shared.Components.TenantChange.TenantChangeViewModel
+INFO  2017-09-21 16:51:41,768 [5    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/  
+WARN  2017-09-21 16:51:45,906 [5    ] Mvc.Authorization.AbpAuthorizationFilter - Abp.Authorization.AbpAuthorizationException: Current user did not login to the application!
+   at Abp.Authorization.AuthorizationHelper.<AuthorizeAsync>d__19.MoveNext() in D:\Github\aspnetboilerplate\src\Abp\Authorization\AuthorizationHelper.cs:line 43
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Abp.Authorization.AuthorizationHelper.<CheckPermissions>d__22.MoveNext() in D:\Github\aspnetboilerplate\src\Abp\Authorization\AuthorizationHelper.cs:line 98
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Abp.Authorization.AuthorizationHelper.<AuthorizeAsync>d__20.MoveNext() in D:\Github\aspnetboilerplate\src\Abp\Authorization\AuthorizationHelper.cs:line 57
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Abp.AspNetCore.Mvc.Authorization.AbpAuthorizationFilter.<OnAuthorizationAsync>d__8.MoveNext() in D:\Github\aspnetboilerplate\src\Abp.AspNetCore\AspNetCore\Mvc\Authorization\AbpAuthorizationFilter.cs:line 53
+Abp.Authorization.AbpAuthorizationException: Current user did not login to the application!
+   at Abp.Authorization.AuthorizationHelper.<AuthorizeAsync>d__19.MoveNext() in D:\Github\aspnetboilerplate\src\Abp\Authorization\AuthorizationHelper.cs:line 43
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Abp.Authorization.AuthorizationHelper.<CheckPermissions>d__22.MoveNext() in D:\Github\aspnetboilerplate\src\Abp\Authorization\AuthorizationHelper.cs:line 98
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Abp.Authorization.AuthorizationHelper.<AuthorizeAsync>d__20.MoveNext() in D:\Github\aspnetboilerplate\src\Abp\Authorization\AuthorizationHelper.cs:line 57
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Abp.AspNetCore.Mvc.Authorization.AbpAuthorizationFilter.<OnAuthorizationAsync>d__8.MoveNext() in D:\Github\aspnetboilerplate\src\Abp.AspNetCore\AspNetCore\Mvc\Authorization\AbpAuthorizationFilter.cs:line 53
+INFO  2017-09-21 16:51:45,923 [5    ] ore.Mvc.Internal.ControllerActionInvoker - Authorization failed for the request at filter 'Abp.AspNetCore.Mvc.Authorization.AbpAuthorizationFilter'.
+INFO  2017-09-21 16:51:45,932 [5    ] Microsoft.AspNetCore.Mvc.ChallengeResult - Executing ChallengeResult with authentication schemes ().
+INFO  2017-09-21 16:51:45,942 [5    ] tion.Cookies.CookieAuthenticationHandler - AuthenticationScheme: Identity.Application was challenged.
+INFO  2017-09-21 16:51:45,955 [5    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action dreamteam.poolpro.Web.Controllers.HomeController.Index (dreamteam.poolpro.Web.Mvc) in 411.1236ms
+INFO  2017-09-21 16:51:45,974 [5    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 4236.0847ms 302 
+INFO  2017-09-21 16:51:45,993 [5    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/Account/Login?ReturnUrl=%2F  
+INFO  2017-09-21 16:51:49,020 [5    ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method dreamteam.poolpro.Web.Controllers.AccountController.Login (dreamteam.poolpro.Web.Mvc) with arguments (, /, ) - ModelState is Valid
+INFO  2017-09-21 16:51:52,045 [6    ] ViewFeatures.Internal.ViewResultExecutor - Executing ViewResult, running view at path /Views/Account/Login.cshtml.
+INFO  2017-09-21 16:51:53,508 [6    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action dreamteam.poolpro.Web.Controllers.AccountController.Login (dreamteam.poolpro.Web.Mvc) in 7481.3878ms
+INFO  2017-09-21 16:51:53,518 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 7524.8964ms 200 text/html; charset=utf-8
+INFO  2017-09-21 16:51:53,555 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/AbpServiceProxies/GetAll?v=636416094989764582  
+INFO  2017-09-21 16:51:53,560 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/AbpScripts/GetScripts?v=636416094989764582  
+INFO  2017-09-21 16:51:53,581 [6    ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore) with arguments () - ModelState is Valid
+INFO  2017-09-21 16:51:53,599 [11   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore) with arguments (Abp.AspNetCore.Mvc.Proxying.ApiProxyGenerationModel) - ModelState is Valid
+INFO  2017-09-21 16:51:53,723 [6    ] tCore.Mvc.Internal.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript; charset=utf-8
+INFO  2017-09-21 16:51:53,729 [6    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore) in 154.2997ms
+INFO  2017-09-21 16:51:53,735 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 197.7218ms 200 application/x-javascript; charset=utf-8
+INFO  2017-09-21 16:51:53,794 [11   ] etCore.Mvc.Internal.ObjectResultExecutor - Executing ObjectResult, writing value Microsoft.AspNetCore.Mvc.ControllerContext.
+INFO  2017-09-21 16:51:53,802 [11   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore) in 224.665ms
+INFO  2017-09-21 16:51:53,812 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 274.5325ms 200 text/plain; charset=utf-8
+INFO  2017-09-21 16:52:00,707 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 POST http://localhost:62114/Account/Login application/x-www-form-urlencoded 256
+INFO  2017-09-21 16:52:00,753 [10   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method dreamteam.poolpro.Web.Controllers.AccountController.Login (dreamteam.poolpro.Web.Mvc) with arguments (dreamteam.poolpro.Web.Models.Account.LoginViewModel, /, ) - ModelState is Valid
+INFO  2017-09-21 16:52:01,302 [6    ] tion.Cookies.CookieAuthenticationHandler - AuthenticationScheme: Identity.Application signed in.
+INFO  2017-09-21 16:52:01,636 [10   ] matters.Json.Internal.JsonResultExecutor - Executing JsonResult, writing value Abp.Web.Models.AjaxResponse.
+INFO  2017-09-21 16:52:01,654 [10   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action dreamteam.poolpro.Web.Controllers.AccountController.Login (dreamteam.poolpro.Web.Mvc) in 929.8713ms
+INFO  2017-09-21 16:52:01,667 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 956.7252ms 200 application/json; charset=utf-8
+INFO  2017-09-21 16:52:01,695 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/  
+INFO  2017-09-21 16:52:01,726 [6    ] tion.Cookies.CookieAuthenticationHandler - AuthenticationScheme: Identity.Application was successfully authenticated.
+INFO  2017-09-21 16:52:01,769 [6    ] uthorization.DefaultAuthorizationService - Authorization was successful for user: admin.
+INFO  2017-09-21 16:52:01,778 [6    ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method dreamteam.poolpro.Web.Controllers.HomeController.Index (dreamteam.poolpro.Web.Mvc) with arguments ((null)) - ModelState is Valid
+INFO  2017-09-21 16:52:02,084 [12   ] ViewFeatures.Internal.ViewResultExecutor - Executing ViewResult, running view at path /Views/Home/Index.cshtml.
+INFO  2017-09-21 16:52:03,840 [5    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action dreamteam.poolpro.Web.Controllers.HomeController.Index (dreamteam.poolpro.Web.Mvc) in 2107.8385ms
+INFO  2017-09-21 16:52:03,846 [5    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 2170.792ms 200 text/html; charset=utf-8
+INFO  2017-09-21 16:52:03,924 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/AbpServiceProxies/GetAll?v=636416094989764582  
+INFO  2017-09-21 16:52:03,927 [5    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/AbpScripts/GetScripts?v=636416094989764582  
+INFO  2017-09-21 16:52:03,999 [5    ] tion.Cookies.CookieAuthenticationHandler - AuthenticationScheme: Identity.Application was successfully authenticated.
+INFO  2017-09-21 16:52:04,002 [10   ] tion.Cookies.CookieAuthenticationHandler - AuthenticationScheme: Identity.Application was successfully authenticated.
+INFO  2017-09-21 16:52:04,071 [10   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore) with arguments (Abp.AspNetCore.Mvc.Proxying.ApiProxyGenerationModel) - ModelState is Valid
+INFO  2017-09-21 16:52:04,073 [5    ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore) with arguments () - ModelState is Valid
+INFO  2017-09-21 16:52:04,079 [10   ] etCore.Mvc.Internal.ObjectResultExecutor - Executing ObjectResult, writing value Microsoft.AspNetCore.Mvc.ControllerContext.
+INFO  2017-09-21 16:52:04,084 [10   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore) in 76.2311ms
+INFO  2017-09-21 16:52:04,090 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 210.1342ms 200 text/plain; charset=utf-8
+INFO  2017-09-21 16:52:04,128 [5    ] tCore.Mvc.Internal.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript; charset=utf-8
+INFO  2017-09-21 16:52:04,135 [5    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore) in 125.2856ms
+INFO  2017-09-21 16:52:04,140 [5    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 259.5356ms 200 application/x-javascript; charset=utf-8
+INFO  2017-09-21 16:52:13,918 [5    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/Customer/Index  
+INFO  2017-09-21 16:52:13,928 [5    ] tion.Cookies.CookieAuthenticationHandler - AuthenticationScheme: Identity.Application was successfully authenticated.
+INFO  2017-09-21 16:52:13,935 [5    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 17.1946ms 404 
+INFO  2017-09-21 16:52:18,597 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/Customer  
+INFO  2017-09-21 16:52:18,609 [6    ] tion.Cookies.CookieAuthenticationHandler - AuthenticationScheme: Identity.Application was successfully authenticated.
+INFO  2017-09-21 16:52:18,616 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 18.3486ms 404 
+INFO  2017-09-21 16:52:22,495 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/Customers  
+INFO  2017-09-21 16:52:22,505 [6    ] tion.Cookies.CookieAuthenticationHandler - AuthenticationScheme: Identity.Application was successfully authenticated.
+ERROR 2017-09-21 16:52:22,519 [6    ] Mvc.ExceptionHandling.AbpExceptionFilter - No component for supporting the service dreamteam.poolpro.Web.Mvc.Controllers.CustomersController was found
+Castle.MicroKernel.ComponentNotFoundException: No component for supporting the service dreamteam.poolpro.Web.Mvc.Controllers.CustomersController was found
+   at Castle.MicroKernel.DefaultKernel.Castle.MicroKernel.IKernelInternal.Resolve(Type service, IDictionary arguments, IReleasePolicy policy)
+   at Castle.Windsor.MsDependencyInjection.ScopedWindsorServiceProvider.GetServiceInternal(Type serviceType, Boolean isOptional) in D:\Github\castle-windsor-ms-adapter\src\Castle.Windsor.MsDependencyInjection\ScopedWindsorServiceProvider.cs:line 55
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService(IServiceProvider provider, Type serviceType)
+   at Microsoft.AspNetCore.Mvc.Controllers.ServiceBasedControllerActivator.Create(ControllerContext actionContext)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass5_0.<CreateControllerFactory>g__CreateController0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.<InvokeInnerFilterAsync>d__14.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.<InvokeNextExceptionFilterAsync>d__23.MoveNext()
+INFO  2017-09-21 16:52:22,544 [6    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action dreamteam.poolpro.Web.Mvc.Controllers.CustomersController.Index (dreamteam.poolpro.Web.Mvc) in 28.4598ms
+ERROR 2017-09-21 16:52:22,676 [6    ] nostics.DeveloperExceptionPageMiddleware - An unhandled exception has occurred while executing the request
+Castle.MicroKernel.ComponentNotFoundException: No component for supporting the service dreamteam.poolpro.Web.Mvc.Controllers.CustomersController was found
+   at Castle.MicroKernel.DefaultKernel.Castle.MicroKernel.IKernelInternal.Resolve(Type service, IDictionary arguments, IReleasePolicy policy)
+   at Castle.Windsor.MsDependencyInjection.ScopedWindsorServiceProvider.GetServiceInternal(Type serviceType, Boolean isOptional) in D:\Github\castle-windsor-ms-adapter\src\Castle.Windsor.MsDependencyInjection\ScopedWindsorServiceProvider.cs:line 55
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService(IServiceProvider provider, Type serviceType)
+   at Microsoft.AspNetCore.Mvc.Controllers.ServiceBasedControllerActivator.Create(ControllerContext actionContext)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass5_0.<CreateControllerFactory>g__CreateController0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.<InvokeInnerFilterAsync>d__14.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.<InvokeNextExceptionFilterAsync>d__23.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Rethrow(ExceptionContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.<InvokeNextResourceFilter>d__22.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Rethrow(ResourceExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.<InvokeFilterPipelineAsync>d__17.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.<InvokeAsync>d__15.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Builder.RouterMiddleware.<Invoke>d__4.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at dreamteam.poolpro.Authentication.JwtBearer.JwtTokenMiddleware.<>c.<<UseJwtTokenMiddleware>b__0_0>d.MoveNext() in D:\School\codercamps\dreamteam\3.0.0\aspnet-core\src\dreamteam.poolpro.Web.Core\Authentication\JwtBearer\JwtTokenMiddleware.cs:line 22
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.<Invoke>d__6.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.<Invoke>d__7.MoveNext()
+INFO  2017-09-21 16:52:22,793 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 297.1498ms 500 text/html; charset=utf-8

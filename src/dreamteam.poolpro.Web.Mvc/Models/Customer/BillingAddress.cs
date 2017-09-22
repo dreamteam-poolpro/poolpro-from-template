@@ -7,6 +7,13 @@ namespace dreamteam.poolpro.Web.Models.Customer
 {
     public class BillingAddress
     {
+
+        //primary key
+        public int BillingAddressID { get; set; }
+
+        //foreign key
+        public int CustomerID { get; set; }
+
         //number, street, and unit
         //ie. 1234 main street unit A
         public string StreetAddress { get; set; }

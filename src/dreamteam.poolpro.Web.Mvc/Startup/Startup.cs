@@ -37,7 +37,7 @@ namespace dreamteam.poolpro.Web.Startup
         public IServiceProvider ConfigureServices(IServiceCollection services)
         {
             //EFC - Models/Customer
-            services.AddDbContext<CustomerContext>(options => options.UseSqlServer(_appConfiguration.GetConnectionString("DefaultConnection")));
+            services.AddDbContext<CustomerContext>(options => options.UseSqlServer(_appConfiguration.GetConnectionString("Default")));
 
             //MVC
             services.AddMvc(options =>
